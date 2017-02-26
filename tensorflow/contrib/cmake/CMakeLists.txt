@@ -18,7 +18,7 @@ cmake_policy(SET CMP0022 NEW)
 
 # Options
 option(tensorflow_VERBOSE "Enable for verbose output" OFF)
-option(tensorflow_ENABLE_GPU "Enable GPU support" ON)
+option(tensorflow_ENABLE_GPU "Enable GPU support" OFF)
 option(tensorflow_ENABLE_SSL_SUPPORT "Enable boringssl support" OFF)
 option(tensorflow_ENABLE_GRPC_SUPPORT "Enable gRPC support" ON)
 option(tensorflow_BUILD_CC_EXAMPLE "Build the C++ tutorial example" ON)
